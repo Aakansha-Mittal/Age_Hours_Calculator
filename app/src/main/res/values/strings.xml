@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Age_Hours_Calc</string>
+    <string name="mssg1">Calculate Your AGE</string>
+    <string name="mssg2">In HOURS</string>
+    <string name="mssg3">Select your DOB</string>
+
+</resources>

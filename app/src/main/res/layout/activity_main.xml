@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FAF8F1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mssg1"
+        android:background="#E5BA73"
+        android:padding="4dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mssg2"
+        android:background="#E5BA73"
+        android:padding="4dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="130dp"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="210dp"
+        android:background="#C58940"
+        android:padding="6dp"
+        android:text="@string/mssg3"
+        android:textSize="20dp"
+        android:id="@+id/btn"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="dd/mm/yyyy"
+        android:background="#FAEAB1"
+        android:padding="4dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="28sp"
+        android:id="@+id/dob"
+        android:textColor="@color/brown"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected DOB"
+        android:padding="4dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1000000000"
+        android:background="#FAEAB1"
+        android:padding="4dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="28sp"
+        android:id="@+id/AgeInHours"
+        android:textColor="@color/brown"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age In Hours"
+        android:padding="4dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginLeft="124dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        />
+
+</RelativeLayout>
